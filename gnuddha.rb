@@ -18,7 +18,6 @@ class Gnuddha < Formula
   def install
     # Remove unrecognized options if they cause configure to fail
     # https://rubydoc.brew.sh/Formula.html#std_configure_args-instance_method
-    system "./configure", "--disable-silent-rules", *std_configure_args
     bin.install "gnuddha.sh" => "gnuddha"
     # system "cmake", "-S", ".", "-B", "build", *std_cmake_args
     (share/"sprites").install Dir["sprites/*"]
