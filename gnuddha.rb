@@ -1,8 +1,8 @@
 class Gnuddha < Formula
   desc "Meditation UI in your favorite bash terminal. Homebrew distribution coming soon! "
   homepage ""
-  url "https://github.com/CTC97/gnuddha/archive/refs/tags/0.1.e.tar.gz"
-  sha256 "726b73a026aee06dad970bf64031c8ac0df61c2344350643cf7e5a22c17f0e84"
+  url "https://github.com/CTC97/gnuddha/archive/refs/tags/0.1.f.tar.gz"
+  sha256 "116e13aa04585f24c4ca670f0f4ef3104e97f6a8d723f2dfdd85a216944cd790"
   license ""
 
   depends_on "jq"
@@ -12,8 +12,8 @@ class Gnuddha < Formula
 
   def install
     bin.install "gnuddha.sh" => "gnuddha"
-    (share/"sprites").install Dir["sprites/*"]
-    (share/"sprites").install "dhamma.json"
+    (share/"gnuddha"/"sprites").install Dir["sprites/*"]
+    (share/"gnuddha"/"docs").install "dhamma.json"
   end
 
   test do
