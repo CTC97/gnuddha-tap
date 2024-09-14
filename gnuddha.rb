@@ -13,6 +13,7 @@ class Gnuddha < Formula
   def install
     bin.install "gnuddha.sh" => "gnuddha"
     (share/"sprites").install Dir["sprites/*"]
+    (share/"sprites").install "dhamma.json"
   end
 
   test do
