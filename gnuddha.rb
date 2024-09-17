@@ -16,6 +16,8 @@ class Gnuddha < Formula
   end
 
   test do
-    system "false"
+    assert_predicate bin/"gnuddha", :exist?, "gnuddha executable must exist"
+    assert_predicate share/"gnuddha"/"res", :exist?, "Resource directory must exist"
+    puts "Success."
   end
 end
