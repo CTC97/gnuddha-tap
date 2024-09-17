@@ -1,6 +1,6 @@
 ### GNUddha - Homebrew Tap
 
-This repo contains the brew formula for GNUddha (ctc97/gnuddha). 
+This repo contains the brew formula for GNUddha ([ctc97/gnuddha](https://github.com/CTC97/gnuddha)). 
 
 To install: 
 
