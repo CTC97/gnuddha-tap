@@ -1,8 +1,8 @@
 class Gnuddha < Formula
   desc "Meditation for healthy, productive devving"
   homepage "https://github.com/CTC97/gnuddha"
-  url "https://github.com/CTC97/gnuddha/archive/refs/tags/0.1.k.tar.gz"
-  sha256 "fb453d18a1409ab5976aa5f1aac157828dd5bda25a0731faf6ac417809f2c8d7"
+  url "https://github.com/CTC97/gnuddha/archive/refs/tags/0.1.l.tar.gz"
+  sha256 "ac74ac90c3416b650876a805beda31cbe7ce84793576a50d87f4a5c07a9fd63a"
   license "BSD-3-Clause"
 
   depends_on "bc"
